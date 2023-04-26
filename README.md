@@ -29,6 +29,9 @@ results unequivocally demonstrate that the proposed custom multimodal Convolutio
 Network segmented the skin lesions with a Sensitivity of 89.03% and a Specificity of 89.12%.
 The proposed multimodal method outperformed unimodal methods.
 
+## EXPERIMENTAL RESULTS 
+
+![GRAD-CAM](https://user-images.githubusercontent.com/51873771/234573456-072e5886-3477-4257-9a5c-59bb33f4c9e8.png)
 
 ### Built With
 We trained all the networks using Google Colab having a GPU machine with the following
