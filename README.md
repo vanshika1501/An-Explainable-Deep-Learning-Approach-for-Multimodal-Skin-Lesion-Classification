@@ -11,6 +11,7 @@ the healthcare sector, which requires a high level of transparency along with ac
 professionals deal with multiple sources of data in their daily life. This research aims to improve the
 effectiveness of skin lesion classification for cancer early detection by utilizing different modalities in
 the form of patient metadata and skin lesion images.
+
 ## Salient contributions
 The research presents the following salient contributions:
 
@@ -39,7 +40,7 @@ The following frameworks and libraries used throughout this project are provided
 
 * Tensorflow [https://www.tensorflow.org/]
 * Keras [https://keras.io/]
-* Pandas [tps://pandas.pydata.org]
+* Pandas [https://pandas.pydata.org]
 * Numpy [https://numpy.org/]
 * Matplotlib [https://matplotlib.org/]
 * LIME [https://lime-ml.readthedocs.io/en/latest/]
@@ -62,6 +63,8 @@ Kaggle API command for HAM10000 Skin Lesion Dataset is provided below:
 Vanshika Sharma 
 * Mail at vanshika170431@dei.ac.in
 * Twitter handle: [@vanshika__says](https://twitter.com/@vanshika__says) 
+
+
 
 Project Link: [https://github.com/vanshika1501/An-Explainable-Deep-Learning-Approach-for-Multimodal-Skin-Lesion-Classification](https://github.com/vanshika1501/An-Explainable-Deep-Learning-Approach-for-Multimodal-Skin-Lesion-Classification)
 
