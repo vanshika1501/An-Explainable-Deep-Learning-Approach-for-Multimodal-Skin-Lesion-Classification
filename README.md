@@ -65,8 +65,17 @@ Multimodal-CNN|0.8923|0.8921|0.8921
 
 Observe that our Multimodal CNN outperforms all the models. Also adding one more modality (patient’s metadata) to the networks increases the classification accuracy. Accuracy is not considered as the only evaluation criteria especially when dealing with imbalanced data. Therefore, precision ,recall and F1-Score values are also taken into consideration.
 ### MODEL OUTPUT
+![Output:](https://user-images.githubusercontent.com/51873771/234581905-35f3b94d-e040-4e94-83c4-04b0006ab184.png)
 
+## Explainability Techniques
 
+### LIME (Unimodal metadata)
+![Untitled presentation (6)](https://user-images.githubusercontent.com/51873771/234583787-736c0156-bf02-4bce-833f-28934d7103e6.jpg)
+
+### SHAP Output
+![image](https://user-images.githubusercontent.com/51873771/234584611-4d848940-adc3-46cd-8c4c-dabbe838c36a.png)
+
+### GRAD-CAM Ouput
 ![GRAD-CAM](https://user-images.githubusercontent.com/51873771/234573456-072e5886-3477-4257-9a5c-59bb33f4c9e8.png)
 
 ### Built With
