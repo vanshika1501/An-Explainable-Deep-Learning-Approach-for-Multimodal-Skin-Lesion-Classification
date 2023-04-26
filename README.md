@@ -31,6 +31,42 @@ The proposed multimodal method outperformed unimodal methods.
 
 ## EXPERIMENTAL RESULTS 
 
+#### Accuracy Comparison in binary classification
+
+Model|Training Accuracy (%)|Validation Accuracy(%)|Test Accuracy(%)
+-----|---------------------|----------------------|----------------
+Unimodal-Random Forest classifier|81.34|86.00|81.00
+Unimodal-ResNet50|80.88|92.32|84.65
+Unimodal-XceptionNet|65.89|79.22|85.13
+Unimodal-IncepV3|66.28|73.18|79.28
+Unimodal-VGG19|69.25|84.95|81.02
+Unimodal-CNN|81.52|89.54|85.25
+Multimodal-ResNet50|87.29|93.35|84.93
+Multimodal-XceptionNet|69.80|82.29|86.82
+Multimodal-IncepV3|72.76|84.34|85.84
+Multimodal-VGG19|81.61|89.97|83.90
+Multimodal-CNN|82.07|92.84|89.01
+
+#### Performance Comparison in binary classification
+
+Model|Precision|Recall|F1-Score
+-----|---------|------|--------
+Unimodal-Random forest classifier|0.7123|0.6850|0.6950
+Unimodal-ResNet50|0.8993|0.8450|0.8355
+Unimodal-XceptionNet|0.7982|0.8600|0.8513
+Unimodal-IncepV3|0.7424|0.8123|0.8966
+Unimodal-VGG19|0.8320|0.7773|0.8037
+Unimodal-CNN|0.8921|0.8847|0.8845
+Multimodal-ResNet50|0.8552|0.8433|0.8420
+Multimodal-XceptionNet|0.8789|0.8672|0.8681
+Multimodal-IncepV3|0.8614|0.8584|0.8581
+Multimodal-VGG19|0.8424|0.8386|0.8390
+Multimodal-CNN|0.8923|0.8921|0.8921
+
+Observe that our Multimodal CNN outperforms all the models. Also adding one more modality (patient’s metadata) to the networks increases the classification accuracy. Accuracy is not considered as the only evaluation criteria especially when dealing with imbalanced data. Therefore, precision ,recall and F1-Score values are also taken into consideration.
+### MODEL OUTPUT
+
+
 ![GRAD-CAM](https://user-images.githubusercontent.com/51873771/234573456-072e5886-3477-4257-9a5c-59bb33f4c9e8.png)
 
 ### Built With
