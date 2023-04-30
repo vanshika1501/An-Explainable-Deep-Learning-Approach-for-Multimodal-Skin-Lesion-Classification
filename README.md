@@ -57,11 +57,11 @@ Unimodal-XceptionNet|0.7982|0.8600|0.8513
 Unimodal-IncepV3|0.7424|0.8123|0.8966
 Unimodal-VGG19|0.8320|0.7773|0.8037
 Unimodal-CNN|0.8921|0.8847|0.8845
-Multimodal-ResNet50|0.8552|0.8433|0.8420
-Multimodal-XceptionNet|0.8789|0.8672|0.8681
-Multimodal-IncepV3|0.8614|0.8584|0.8581
-Multimodal-VGG19|0.8424|0.8386|0.8390
-Multimodal-CNN|0.8923|0.8921|0.8921
+Multimodal-ResNet50|0.8676|0.8616|0.8621
+Multimodal-XceptionNet|0.889|0.8972|0.8981
+Multimodal-IncepV3|0.8660|0.8618|0.8622
+Multimodal-VGG19|0.8534|0.8526|0.8525
+Multimodal-CNN|0.9015|0.9015|0.9016
 
 Observe that our Multimodal CNN outperforms all the models. Also adding one more modality (patient’s metadata) to the networks increases the classification accuracy. Accuracy is not considered as the only evaluation criteria especially when dealing with imbalanced data. Therefore, precision ,recall and F1-Score values are also taken into consideration.
 ### MODEL OUTPUT
