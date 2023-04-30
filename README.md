@@ -41,11 +41,11 @@ Unimodal-XceptionNet|65.89|79.22|85.13
 Unimodal-IncepV3|66.28|73.18|79.28
 Unimodal-VGG19|69.25|84.95|81.02
 Unimodal-CNN|81.52|89.54|85.25
-Multimodal-ResNet50|87.29|93.35|84.93
-Multimodal-XceptionNet|69.80|82.29|86.82
-Multimodal-IncepV3|72.76|84.34|85.84
-Multimodal-VGG19|81.61|89.97|83.90
-Multimodal-CNN|82.07|92.84|89.01
+Multimodal-ResNet50|83.29|93.35|86.22
+Multimodal-XceptionNet|69.80|82.29|87.82
+Multimodal-IncepV3|72.17|85.26|86.22
+Multimodal-VGG19|81.61|89.90|85.90
+Multimodal-CNN|84.07|92.84|90.15
 
 #### Performance Comparison in binary classification
 
