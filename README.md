@@ -26,7 +26,7 @@ pre-trained models (ResNet50, IncepV3, XcepNet, and VGG19) using a late fusion a
 
 3. A scientific method for comparing and contrasting unimodal and multimodal networks. Our
 results unequivocally demonstrate that the proposed custom multimodal Convolutional
-Network segmented the skin lesions with a Sensitivity of 89.03% and a Specificity of 89.12%.
+Network segmented the skin lesions with a Sensitivity and a Specificity of 90%
 The proposed multimodal method outperformed unimodal methods.
 
 ## EXPERIMENTAL RESULTS 
